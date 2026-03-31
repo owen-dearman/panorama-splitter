@@ -1,0 +1,25 @@
+{
+  "maxSegments": 10,
+  "defaultBlurLevelIndex": 1,
+  "instagramPresets": [
+    { "name": "Portrait 4:5 (1080 x 1350)", "width": 1080, "height": 1350 },
+    { "name": "Square 1:1 (1080 x 1080)", "width": 1080, "height": 1080 },
+    { "name": "Landscape 1.91:1 (1080 x 566)", "width": 1080, "height": 566 }
+  ],
+  "ratioOptions": [
+    { "label": "4:5 (portrait)", "ratioWidth": 4, "ratioHeight": 5 },
+    { "label": "1:1 (square)", "ratioWidth": 1, "ratioHeight": 1 },
+    { "label": "1.91:1 (landscape)", "ratioWidth": 191, "ratioHeight": 100 },
+    { "label": "1:3 (tall)", "ratioWidth": 1, "ratioHeight": 3 },
+    { "label": "2:3 (tall)", "ratioWidth": 2, "ratioHeight": 3 },
+    { "label": "3:2 (wide)", "ratioWidth": 3, "ratioHeight": 2 },
+    { "label": "16:9 (wide)", "ratioWidth": 16, "ratioHeight": 9 },
+    { "label": "9:16 (story)", "ratioWidth": 9, "ratioHeight": 16 }
+  ],
+  "blurLevels": [
+    { "name": "Light", "passes": 1, "downscaleDivisor": 8 },
+    { "name": "Medium", "passes": 2, "downscaleDivisor": 8 },
+    { "name": "Heavy", "passes": 3, "downscaleDivisor": 10 }
+  ]
+}
+
